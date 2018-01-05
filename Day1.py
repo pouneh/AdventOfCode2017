@@ -18,7 +18,8 @@ def part1(input = ""):
         sum += int(input[0])
     return sum
 
-
+#Part 2:instead of considering the next digit, it wants you to consider the
+#       digit halfway around the circular list
 def part2(input = ""):
     sum = 0
     if (len(input) == 0):
